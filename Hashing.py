@@ -96,6 +96,11 @@ for j in Isi_5:
     idx+=1
     data_5 = Isi_5[j]
     st.write(f"**{idx}. {j}**: {data_5}")
+    
+# input text
+st.title("Percobaan Hashing")
+text = st.text_input("Apa yang mau di hashing?")
+st.header(hash(text))
 
 #  Daftar pustaka
 Daftar = "Daftar Pustaka"
