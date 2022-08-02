@@ -4,9 +4,7 @@ import textwrap as tw
 from PIL import Image
 import pandas as pd
 
-import streamlit as st
-
-st.write("Hallo, Welcome to our Content")
+#st.write("Hallo, Welcome to our Content")
 
 # Icon header
 st.set_page_config(
