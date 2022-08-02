@@ -4,7 +4,6 @@ import textwrap as tw
 from PIL import Image
 import pandas as pd
 
-#st.write("Hallo, Welcome to our Content")
 
 # Icon header
 st.set_page_config(
