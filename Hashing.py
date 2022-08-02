@@ -4,6 +4,10 @@ import textwrap as tw
 from PIL import Image
 import pandas as pd
 
+import streamlit as st
+
+st.write("Hallo, Welcome to our Content")
+
 # Icon header
 st.set_page_config(
     page_title="Hashing",
@@ -97,13 +101,13 @@ for j in Isi_5:
 Daftar = "Daftar Pustaka"
 st.subheader(Daftar.title())
 Dapus = [
-    "https://www.techtarget.com/searchdatamanagement/definition/hashing (diakses tanggal 1 Agustus 2022)",
-    "https://www.steadfastit.com/resources/blog/managed-it-services/what-is-hashing-in-cyber-security/ (diakses tanggal 1 Agustus 2022)",
-    "https://ilmuelektro.id/hash-adalah/ (diakses tanggal 1 Agustus 2022)",
-    "https://kutu.dev/artikel/mengenal-hashing (diakses tanggal 1 Agustus 2022)",
-    "https://heimdalsecurity.com/blog/what-is-hashing/ (diakses tanggal 1 Agustus 2022)",
-    "https://pintu.co.id/academy/post/apa-itu-hashing-dan-bagaimana-cara-kerjanya (diakses tanggal 1 Agustus 2022)",
-    "https://medium.com/@ramdannur/perbedaan-enkoding-enkripsi-dan-hash-9f9670767fa3 (diakses tanggal 1 Agustus 2022)"
+    "Jola Andrew. 2021. Defenition Hashing . https://www.techtarget.com/searchdatamanagement/definition/hashing (diakses tanggal 1 Agustus 2022)",
+    "Steadfastit.com. 2022. What is Hashing in Cyber Security? . https://www.steadfastit.com/resources/blog/managed-it-services/what-is-hashing-in-cyber-security/ (diakses tanggal 1 Agustus 2022)",
+    "Kurniawan Bayu. 2022. Hash Adalah: Pengertian, Cara Kerja, Jenis, Fungsi dan Manfaatnya . https://ilmuelektro.id/hash-adalah/ (diakses tanggal 1 Agustus 2022)",
+    "Kutu.dev. 2020. Mengenal Hashing, Fungsi Satu Arah . https://kutu.dev/artikel/mengenal-hashing (diakses tanggal 1 Agustus 2022)",
+    "Tudor Dora. 2021. What Is Hashing and How Does It Work? . https://heimdalsecurity.com/blog/what-is-hashing/ (diakses tanggal 1 Agustus 2022)",
+    "Rezkitha, D. 2021 . Apa itu Hashing dan Bagaimana Cara Kerjanya? . https://pintu.co.id/academy/post/apa-itu-hashing-dan-bagaimana-cara-kerjanya (diakses tanggal 1 Agustus 2022)",
+    "Nurul Ramdan. 2018 . Perbedaan Enkoding,Enksripsi, dan Hash. https://medium.com/@ramdannur/perbedaan-enkoding-enkripsi-dan-hash-9f9670767fa3 (diakses tanggal 1 Agustus 2022)"
 ]
 for index in range(len(Dapus)):
     st.write(f"{index+1}. {Dapus[index]}")
