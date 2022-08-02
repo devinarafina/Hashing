@@ -23,4 +23,3 @@ st.subheader('md5')
 # use the whole string at once
 x = hashlib.md5(text.encode())
 st.write(x.hexdigest())
-st.write('test')
