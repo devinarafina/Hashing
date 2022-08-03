@@ -8,10 +8,9 @@ st.set_page_config(
 )
 
 st.title("Let's Try Hashing!")
-st.header("Percobaan Hashing")
 text = st.text_input("Masukkan data: ")
 
-st.write('Text yang di Input adalah: ',text)
+st.write('Data yang di Input adalah: ',text)
 # initialize using sha256
 st.subheader('SHA256')
 # use the whole string at once
